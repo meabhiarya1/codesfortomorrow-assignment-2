@@ -234,13 +234,13 @@ Delete a service from a category.
 
 ---
 
-## ▶️ Run the Project
+## Run the Project
 
 1. Clone the repo:
 
    ```bash
-   git clone <repo-url>
-   cd <project-folder>
+   git clone https://github.com/meabhiarya1/codesfortomorrow-assignment-2
+   cd server
    ```
 
 2. Install dependencies:
@@ -254,25 +254,15 @@ Delete a service from a category.
 4. Start the server:
 
    ```bash
-   node app.js
+   npm start
    ```
 
----
-
-## 📬 Postman Collection
-
-A Postman Collection is available in `/docs/postman_collection.json`.
-
-> You can import this file into Postman to test all endpoints quickly.
-
----
-
-## 🧙‍♂️ Author
+## Author
 
 Developed by **@meabhiarya1**
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
