@@ -12,8 +12,8 @@ app.use(cors({
 
 // Routes
 app.use("/api", require("./routes/authRoutes"));
-// app.use("/api", require("./routes/categoryRoutes"));
-// app.use("/api", require("./routes/serviceRoutes"));
+app.use("/api", require("./routes/categoryRoutes"));
+app.use("/api", require("./routes/serviceRoutes"));
 
 const { User, sequelize } = db;
 
