@@ -21,7 +21,7 @@ sequelize.sync({ alter: true }).then(async () => {
     const [admin, created] = await User.findOrCreate({
         where: { email: "admin@codesfortomorrow.com" },
         defaults: {
-            password: await bcrypt.hash("Admin123!@#", 10), // Hash the default password
+            password: await bcrypt.hash("Admin123!@#", 10), 
         },
     });
 
